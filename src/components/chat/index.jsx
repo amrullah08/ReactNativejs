@@ -14,7 +14,7 @@ const Chat = ({ messages }) => {
   const activeThemeId = useSharedValue(themes[0].id)
   const scrollY = useSharedValue(0)
 
-  const changeTheme = (themeId) => {
+  const changeTheme = (themeId) => { 
     if (activeThemeId.value === themeId)
       return
     activeThemeId.value = themeId
