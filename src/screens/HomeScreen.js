@@ -28,7 +28,7 @@ const HomeScreen = ({ navigation }) => {
         title="Password" />
         <Button
           onPress={() => navigation.navigate('Cht')}
-          title="Cht" />
+          title="Test Chat" />
     </View>
   );
 };

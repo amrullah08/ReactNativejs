@@ -19,7 +19,7 @@ const navigator = createStackNavigator(
     Counter: CounterScreen,
     Text: TextScreen,
     Passw: PasswordScreen,
-    Cht: TestChatScreen
+    Cht: ChatScreen
   },
   {
     initialRouteName: 'Home',
